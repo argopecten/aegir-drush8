@@ -1,6 +1,6 @@
 {
-  "name": "drush/drush",
-  "description": "Drush is a command line shell and scripting interface for Drupal, a veritable Swiss Army knife designed to make life easier for those of us who spend some of our working hours hacking away at the command prompt.",
+  "name": "aegir/drush8",
+  "description": "BOA fork of Drush 8.x compatible with Drupal 10",
   "homepage": "http://www.drush.org",
   "license": "GPL-2.0-or-later",
   "minimum-stability": "stable",
