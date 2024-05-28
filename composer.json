@@ -1,9 +1,9 @@
 {
-  "name": "aegir/drush8",
+  "name": "aegir/drush",
   "description": "BOA fork of Drush 8.x compatible with Drupal 10",
   "homepage": "http://www.drush.org",
   "license": "GPL-2.0-or-later",
-  "minimum-stability": "stable",
+  "minimum-stability": "dev",
   "prefer-stable": true,
   "authors": [
     { "name": "Moshe Weitzman", "email": "weitzman@tejasa.com" },
