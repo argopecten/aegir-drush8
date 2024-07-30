@@ -189,7 +189,7 @@ function pm_drush_command() {
       'resolve-dependencies' => 'Attempt to download any missing dependencies. At the moment, only works when the module name is the same as the project name.',
       'skip' => 'Skip automatic downloading of libraries (c.f. devel).',
     ),
-    'aliases' => array('en', 'pm:enable'),
+    'aliases' => array('en', 'pm:enable', 'pm:install'),
     'engines' => array(
       'release_info' => array(
         'add-options-to-command' => FALSE,
