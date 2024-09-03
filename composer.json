@@ -1,6 +1,7 @@
 {
   "name": "drush/drush",
   "description": "Drush is a command line shell and scripting interface for Drupal, a veritable Swiss Army knife designed to make life easier for those of us who spend some of our working hours hacking away at the command prompt.",
+  "type": "drupal-drush",
   "homepage": "http://www.drush.org",
   "license": "GPL-2.0-or-later",
   "minimum-stability": "stable",
@@ -30,12 +31,16 @@
   "config": {
     "platform": {
       "php": "5.4.5"
+    },
+    "allow-plugins": {
+      "composer/installers": true
     }
   },
   "require": {
     "php": ">=5.4.5",
     "psr/log": "~1.0",
     "psy/psysh": "~0.6",
+    "composer/installers": "^1.9",
     "consolidation/annotated-command": "^2.12.0",
     "consolidation/output-formatters": "~3",
     "symfony/yaml": "~2.3|^3|^4.4",
